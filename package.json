@@ -1,0 +1,15 @@
+{
+  "name": "public_Dev_tools",
+  "version": "0.0.16",
+  "description": "- Have been installed [GIT]( https://www.git-scm.com/download/win) version-control system \r - A database.json file with this structure\r ````json\r {\r     \"github\": {\r     \t\"user\": \"\",    \t\r     \t\"email\":\"\",\t\t\r \t\t\"token\":\"\"\r     },\r     \"npm\": {\r     \t\"user\": \"\",\r     \t\"password\": \"\",\r     \t\"email\":\"\"    \t\r     } \t\r }\r ````\r ## automatic-install-script\r This is only an install script",
+  "main": "exec.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rober19",
+  "license": "MIT",
+  "dependencies": {
+    "write": "^1.0.3"
+  }
+}

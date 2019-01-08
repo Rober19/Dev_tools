@@ -1,0 +1,21 @@
+{
+  "name": "credentials-rober19",
+  "version": "1.0.12",
+  "description": "",
+  "main": "exec.js",
+  "scripts": {
+    "start": "startplay.bat",
+    "test": "node exec.js",
+    "sync": "sync_scripts.bat"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "git-bash-shell": "^2.3.0",
+    "git-credential-node": "^1.1.0",
+    "npm-login-cli": "0.0.4",
+    "read-directory": "^3.0.1",
+    "write": "^1.0.3"
+  }
+}
