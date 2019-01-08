@@ -2,9 +2,6 @@
 /node_modules
 /credentials
 /automatic-install-login-rober19/node_modules
-/automatic-install-login-rober19/ssh_key/id_rsa
-/automatic-install-login-rober19/ssh_key/id_rsa.pub
-/automatic-install-login-rober19/database.json
 /automatic-install-login-rober19/package-lock.json
 exec.js
 package-lock.json
