@@ -11,7 +11,7 @@ cd..
 RD /s /q tempF1
 ::call node exec.js repo=devops
 
-call sync.bat
+::call sync.bat
 
 git add -A
 call npm version -f patch 

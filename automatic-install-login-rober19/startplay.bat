@@ -29,10 +29,10 @@ call heroku --version || call npm i -g heroku
 call firebase --version || call npm i -g firebase-tools
 
 
-for /f "tokens=*" %%a in ('jq ". | .git.user" -r database.json') do (
+for /f "tokens=*" %%a in ('jq ". | .github.user" -r database.json') do (
     set userName1=%%a
 )
-for /f "tokens=*" %%a in ('jq ". | .git.email" -r database.json') do (
+for /f "tokens=*" %%a in ('jq ". | .github.email" -r database.json') do (
     set email1=%%a
 )
 echo git config --global user.name %userName1%
